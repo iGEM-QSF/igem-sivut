@@ -2,18 +2,17 @@
 	height:13vh;
 }
 
+header #logo {
+	height:9vh;
+}
+
 body {
 	background-image:url('../txture7.jpg');
 	background-size: cover;
 }
 
-.vertical-text{
-	display: inline-block;
-    vertical-align: middle;
-    float: none;
-}
-
 .what{
+	padding-top: 20vh;
 	background-image:url('../txture7.jpg');
 	background-size: cover;
 	height:100vh;
@@ -39,7 +38,7 @@ body {
 
 .support {
 	background-color: #F2EE74;
-	color:;
+	color:black;
 }
 
 article {
@@ -53,6 +52,7 @@ article {
 
 header a {
 	color: white;
+	padding-left: 1.5vw;
 }
 
 header a:hover{
@@ -61,6 +61,7 @@ header a:hover{
 
 footer a {
 	color: white;
+	padding-left: 1.5vw;
 }
 
 footer a:hover{
@@ -78,15 +79,26 @@ header {
 }
 
 footer {
-	margin-top:-20px;
+	padding-top: 20px;
 	color:white;
-	background-color:rgba(0,0,0,0.5);
+	background-image:url('../txture7.jpg');
+	background-size: cover;
 }
 
 header #navigation {
 }
 
 footer #navigation {
+	margin-top: 3vh;
+	margin-bottom: 1vh;
+}
+
+footer .bottom {
+	background-color:rgba(0,0,0,0.5);
+	padding-bottom: 0.5vh;
+}
+
+footer h2 {
 }
 
 #copyright {
