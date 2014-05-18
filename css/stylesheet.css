@@ -1,9 +1,54 @@
 #logo{
-	height:15vh;
+	height:13vh;
 }
 
 body {
 	background-image:url('../txture7.jpg');
+	background-size: cover;
+}
+
+.vertical-text{
+	display: inline-block;
+    vertical-align: middle;
+    float: none;
+}
+
+.what{
+	background-image:url('../txture7.jpg');
+	background-size: cover;
+	height:100vh;
+}
+
+.team{
+	background-color: #A84774;
+}
+
+.goal{
+	background-image:url('../txture6.jpg');
+	background-size: cover;
+}
+
+.idea {
+	background-image:url('../txture8.jpg');
+	background-size: cover;
+}
+
+.follow {
+	background-color: #645E5E;
+}
+
+.support {
+	background-color: #F2EE74;
+	color:;
+}
+
+article {
+	color:floralwhite;
+	padding-top: 5vh;
+	padding-bottom: 5vh;
+	padding-left: 15vw;
+	padding-right: 15vw;
+	min-height:85vh;
 }
 
 header a {
@@ -22,24 +67,26 @@ footer a:hover{
 	color: white;
 }
 
+header .navbar {
+	background-color:rgba(0,0,0,0.5);
+	border:0px;
+}
+
 header {
 	color:white;
-	background-color:rgba(0,0,0,0.5);
+	padding-bottom: 1vh;
 }
 
 footer {
+	margin-top:-20px;
 	color:white;
 	background-color:rgba(0,0,0,0.5);
 }
 
 header #navigation {
-	margin-top: 1vh;
-	background-color: ;
 }
 
 footer #navigation {
-	margin-top: 1vh;
-	margin-bottom: 1vh;
 }
 
 #copyright {
