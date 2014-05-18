@@ -1,0 +1,43 @@
+#logo{
+	height:15vh;
+}
+
+header a {
+	color: white;
+}
+
+header a:hover{
+	color: white;
+}
+
+footer a {
+	color: white;
+}
+
+footer a:hover{
+	color: white;
+}
+
+header {
+	color:white;
+	background-color:gray;
+}
+
+footer {
+	color:white;
+	background-color:gray;
+}
+
+header #navigation {
+	margin-top: 1vh;
+	background-color: ;
+}
+
+footer #navigation {
+	margin-top: 1vh;
+	margin-bottom: 1vh;
+}
+
+#copyright {
+	font-size: 8px;
+}
