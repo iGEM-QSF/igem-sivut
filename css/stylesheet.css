@@ -2,6 +2,10 @@
 	height:15vh;
 }
 
+body {
+	background-image:url('../txture7.jpg');
+}
+
 header a {
 	color: white;
 }
@@ -20,12 +24,12 @@ footer a:hover{
 
 header {
 	color:white;
-	background-color:gray;
+	background-color:rgba(0,0,0,0.5);
 }
 
 footer {
 	color:white;
-	background-color:gray;
+	background-color:rgba(0,0,0,0.5);
 }
 
 header #navigation {
