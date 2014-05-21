@@ -8,8 +8,12 @@
     font-size:2em;
 }
 
-.more a, .more a:hover {
+.team .more a, .team .more a:hover {
     color:pink;
+}
+
+.support .more a, .support .more a:hover {
+    color:orange;
 }
 
 header #logo {
@@ -44,6 +48,13 @@ body{
 
 .team{
 	background-color: #A84774;
+}
+
+.team-detail{
+	background-image:url('../txture8.jpg');
+    background-size: cover;
+    height:100vh;
+    padding-top:20vh;
 }
 
 .goal{
@@ -128,4 +139,8 @@ footer h2 {
 
 #copyright {
 	font-size: 8px;
+}
+
+#sponsors .row {
+    margin-right:0;
 }
