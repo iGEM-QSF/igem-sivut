@@ -9,6 +9,7 @@ header #logo {
 	height: 4em;
 	
 }
+/* piilota logot pienellä näytöllä */
 @media (max-width: 600px) {
 	header #logo {
 		display: none;
