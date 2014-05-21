@@ -2,13 +2,22 @@
 	height:13vh;
 }
 
+.more {
+    font-size:2em;
+}
+
+.more a, .more a:hover {
+    color:pink;
+}
+
 header #logo {
 	height:9vh;
 }
 
-body {
-	background-image:url('../txture7.jpg');
-	background-size: cover;
+body{
+	background-color:black;
+    margin: 0;
+    padding: 0;
 }
 
 .what{
@@ -16,6 +25,11 @@ body {
 	background-image:url('../txture7.jpg');
 	background-size: cover;
 	height:100vh;
+}
+
+.big-text{
+    font-size:xx-large;
+    margin-right:5%;
 }
 
 .team{
@@ -48,6 +62,8 @@ article {
 	padding-left: 15vw;
 	padding-right: 15vw;
 	min-height:85vh;
+    font-size:large;
+
 }
 
 header a {
@@ -75,7 +91,6 @@ header .navbar {
 
 header {
 	color:white;
-	padding-bottom: 1vh;
 }
 
 footer {
