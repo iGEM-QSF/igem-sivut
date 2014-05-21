@@ -1,10 +1,20 @@
 #logo{
-	height:13vh;
+	//#height:13vh;
+
+	height: 8em;
 }
 
 header #logo {
-	height:9vh;
+	//height:9vh;
+	height: 4em;
+	
 }
+@media (max-width: 600px) {
+	header #logo {
+		display: none;
+	}
+}
+
 
 body {
 	background-image:url('../txture7.jpg');
@@ -55,7 +65,7 @@ header a {
 	padding-left: 1.5vw;
 }
 
-header a:hover{
+header a:hover {
 	color: white;
 }
 
@@ -64,7 +74,7 @@ footer a {
 	padding-left: 1.5vw;
 }
 
-footer a:hover{
+footer a:hover {
 	color: white;
 }
 
