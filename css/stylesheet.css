@@ -38,7 +38,7 @@ body{
 	padding-top: 20vh;
 	background-image:url('../txture7.jpg');
 	background-size: cover;
-	height:100vh;
+	min-height:100vh;
 }
 
 .big-text{
@@ -53,7 +53,7 @@ body{
 .team-detail{
 	background-image:url('../txture8.jpg');
     background-size: cover;
-    height:100vh;
+    min-height:100vh;
     padding-top:20vh;
 }
 
