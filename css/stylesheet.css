@@ -1,5 +1,7 @@
 #logo{
-	height:13vh;
+	//#height:13vh;
+
+	height: 8em;
 }
 
 .more {
@@ -11,7 +13,15 @@
 }
 
 header #logo {
-	height:9vh;
+	//height:9vh;
+	height: 4em;
+	
+}
+/* piilota logot pienellä näytöllä */
+@media (max-width: 600px) {
+	header #logo {
+		display: none;
+	}
 }
 
 body{
@@ -71,7 +81,7 @@ header a {
 	padding-left: 1.5vw;
 }
 
-header a:hover{
+header a:hover {
 	color: white;
 }
 
@@ -80,7 +90,7 @@ footer a {
 	padding-left: 1.5vw;
 }
 
-footer a:hover{
+footer a:hover {
 	color: white;
 }
 
