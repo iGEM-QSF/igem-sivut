@@ -4,8 +4,45 @@
 	height: 8em;
 }
 
+@font-face {
+    font-family: "Kirvy-Regular";
+    src: url(fonts/Kirvy-Regular.otf) format("truetype");
+}
+
+@font-face {
+    font-family: "Fabrica";
+    src: url(fonts/Fabrica.otf) format("truetype");
+}
+
+@font-face {
+    font-family: "Infinity";
+    src: url(fonts/Infinity.ttf) format("truetype");
+}
+
+@font-face {
+    font-family: "Adam.CG";
+    src: url(fonts/ADAM.CG PRO.otf) format("truetype");
+}
+
+#logobar{ 
+    font-family: "Fabrica", Verdana, Tahoma;
+}
+
+.big-text{ 
+    font-family: "Kirvy-Regular", Verdana, Tahoma;
+}
+
+article h1 {
+    font-family: "ADAM.CG", Verdana, Tahoma;
+}
+
+#sponsors {
+	font-family: "Fabrica", Verdana, Tahoma;
+}
+
 .more {
     font-size:2em;
+    font-family: "Kirvy-Regular", Verdana, Tahoma;
 }
 
 .team .more a, .team .more a:hover {
