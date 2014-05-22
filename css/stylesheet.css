@@ -24,8 +24,13 @@
     src: url(fonts/ADAM.CG PRO.otf) format("truetype");
 }
 
+@font-face {
+    font-family: "Raleway-Regular";
+    src: url(fonts/Raleway-Regular.ttf) format("truetype");
+}
+
 #logobar{ 
-    font-family: "Fabrica", Verdana, Tahoma;
+    font-family: "Raleway-Regular", Verdana, Tahoma;
 }
 
 .big-text{ 
@@ -33,11 +38,11 @@
 }
 
 article h1 {
-    font-family: "ADAM.CG", Verdana, Tahoma;
+    font-family: "Kirvy-Regular", Verdana, Tahoma;
 }
 
 #sponsors {
-	font-family: "Fabrica", Verdana, Tahoma;
+	font-family: "Raleway-Regular", Verdana, Tahoma;
 }
 
 .more {
@@ -87,7 +92,11 @@ body{
 	background-color: #A84774;
 }
 
-.team-detail{
+.team .detail {
+	background-image:url('../txture8.jpg');
+}
+
+.detail{
 	background-image:url('../txture8.jpg');
     background-size: cover;
     min-height:100vh;
