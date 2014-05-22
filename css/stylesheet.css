@@ -29,12 +29,25 @@
     src: url(fonts/Raleway-Regular.ttf) format("truetype");
 }
 
-#logobar{ 
-    font-family: "Raleway-Regular", Verdana, Tahoma;
+@font-face {
+    font-family: "Fairview-Regular";
+    src: url(fonts/Fairview-Regular.otf) format("truetype");
 }
 
-.big-text{ 
-    font-family: "Kirvy-Regular", Verdana, Tahoma;
+@font-face {
+    font-family: "Fairview-SmallCaps";
+    src: url(fonts/Fairview-SmallCaps.otf) format("truetype");
+}
+
+#logobar{ 
+    font-family: "ADAM.CG", Verdana, Tahoma;
+}
+
+.big-text{
+	font-family: "Kirvy-Regular", Verdana, Tahoma;
+    margin-bottom: 5%;
+    font-size:x-large;
+    margin-right:5%;
 }
 
 article h1 {
@@ -47,7 +60,7 @@ article h1 {
 
 .more {
     font-size:2em;
-    font-family: "Kirvy-Regular", Verdana, Tahoma;
+    font-family: "Infinity", Verdana, Tahoma;
 }
 
 .team .more a, .team .more a:hover {
@@ -83,10 +96,7 @@ body{
 	min-height:100vh;
 }
 
-.big-text{
-    font-size:xx-large;
-    margin-right:5%;
-}
+
 
 .team{
 	background-color: #A84774;
