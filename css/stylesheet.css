@@ -3,6 +3,11 @@
     src: url(fonts/JuraBook.ttf) format("truetype");
 }
 
+@font-face {
+    font-family: "Fairview-SmallCaps";
+    src: url(fonts/Fairview-SmallCaps.otf) format("truetype");
+}
+
 *{font-family:"JuraBook";}
 
 a:link {color:#50BCBC;}
@@ -14,10 +19,13 @@ a:hover, a:visited, a:link, a:active
 {
     text-decoration: none !important;
 }
-@font-face {
-    font-family: "Fairview-SmallCaps";
-    src: url(fonts/Fairview-SmallCaps.otf) format("truetype");
+
+.vcenter {
+    display: inline-block;
+    vertical-align: middle;
+    float: none;
 }
+
 
 .big-text{
     margin-bottom: 5%;
@@ -29,10 +37,6 @@ a:hover, a:visited, a:link, a:active
 	//#height:13vh;
 
 	height: 8em;
-}
-
-#logobar{ 
-    font-family: "ADAM.CG", Verdana, Tahoma;
 }
 
 header #logo {
@@ -63,9 +67,10 @@ body{
 
 .what{
 	padding-top: 20vh;
-	background-image:url('../txture7.jpg');
+	background-image:url('../img/sepia_1920x1080.jpg');
 	background-size: cover;
 	min-height:100vh;
+	color: black;
 }
 
 .team{
@@ -187,6 +192,10 @@ footer #navigation {
 footer .bottom {
 	background-color:rgba(0,0,0,0.5);
 	padding-bottom: 0.5vh;
+}
+
+footer a {
+	padding-left: 1.5vw;
 }
 
 footer h2 {
