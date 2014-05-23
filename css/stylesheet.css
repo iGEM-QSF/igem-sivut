@@ -42,7 +42,7 @@ header .navbar {
 /* Yksittäisten sivujen ylägradientti grafiikasta valkoiseksi*/
 
 .top-graphic{
-    height:100vh;
+    min-height:100vh;
     background-image:url('../img/sepia_1920x1080.jpg');
     background-size: cover;
 }
@@ -137,12 +137,8 @@ article h1 {
     background-color:white;
     color:black;
     padding-top:0;
-    min-height:0;
+    min-height:50vh;
     padding-bottom: 0;
-}
-
-.teampics {
-    margin-top:30vh;
 }
 
 /* Footerin tyylit */
@@ -243,10 +239,6 @@ footer .bottom {
 
 #teamfooter .bottom, #projectfooter .bottom{
     margin-top:17.5vh;
-}
-
-.teampics {
-    margin-top:30vh;
 }
 
 footer #navigation {
