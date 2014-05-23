@@ -85,29 +85,7 @@ header #logo {
 	
 }
 /* piilota logot pienellä näytöllä */
-@media (max-width: 700px) {
-	header #logo {
-		display: none;
-	}
-    /* partnerit sivun taulukko responsiiviseksi ilman bootstrappia joka ei toimi */
-    #sponsor-packs table {
-        display: block;
-    }
-    #sponsor-packs th {
-        display: none;
-    }
-    #sponsor-packs tr {
-        display: block;
-        
-    }
-    #sponsor-packs td {
-        display: block;
-        padding: 0;
-        
-        
-    }
-    
-}
+
 
 body{
 	background-color:black;
@@ -228,35 +206,39 @@ footer h2 {
 }
 
 /* partnerit sivun taulukko */
-#sponsor-packs {
-    font-size: 0.8em;
+.sponsor-pack {
+    font-size: 0.9em;
     font-weight: 400;
     font-family: 'Titillium Web', sans-serif;
-    margin: 4em auto;
-}
-#sponsor-packs th {
-    background-color: rgba(0,0,0,0.8);
-    color: white;
-    text-align: center;
-    padding: 1em;
+    margin: 0 auto;
+    border: 0px solid rgb(0,0,0);
+    background-color: rgba(10,10,10,0.6);
+    width: 80%;
+    
 }
 
-
-#sponsor-packs td:nth-child(2n-1){
-    vertical-align: middle;
-    text-align: center;
-    
-    font-size: 1.5em;
-}
-#sponsor-packs td {
-    padding: 1em;
-    vertical-align: top;
-}
-#sponsor-packs tr:nth-child(n+2) {
-    
-    background-color: rgba(0,0,0,0.6);
-}
-#sponsor-packs tr:nth-child(even) {
-    
+.sponsor-pack:nth-child(even){
     background-color: rgba(50,50,50,0.6);
+}
+.sponsor-pack h1{
+    font-size: 1.8em;
+    text-align: center;
+    padding: 0.5em 0;
+}
+.sponsor-pack .sisalto {
+    margin: 0 auto;
+    width: 80%;
+}
+
+@media (max-width: 700px) {
+	header #logo {
+		display: none;
+	}
+    /* partnerit sivun taulukko responsiiviseksi ilman bootstrappia joka ei toimi */
+    .sponsor-pack {
+        width: 100%;
+        font-size: 0.8em;
+    }
+    
+
 }
