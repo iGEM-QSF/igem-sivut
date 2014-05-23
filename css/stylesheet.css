@@ -150,7 +150,7 @@ article h1 {
 footer {
 	padding-top: 20px;
 	color:white;
-	background-image:url('../txture7.jpg');
+	background-image:url('../img/turqous.jpg');
 	background-size: cover;
 	color: black;
 }
@@ -252,7 +252,6 @@ footer h2 {
 .sponsor-pack {
     font-size: 0.9em;
     font-weight: 400;
-    font-family: 'Titillium Web', sans-serif;
     margin: 0 auto;
     border: 0px solid rgb(0,0,0);
     background-color: rgba(10,10,10,0.6);
