@@ -48,7 +48,7 @@
     src: url(fonts/Fairview-SmallCaps.otf) format("truetype");
 }
 
-#logobar{ 
+#logobar{
     font-family: "ADAM.CG", Verdana, Tahoma;
 }
 
@@ -82,7 +82,7 @@ article h1 {
 
 header #logo {
 	height: 4em;
-	
+
 }
 /* piilota logot pienellä näytöllä */
 
@@ -100,27 +100,22 @@ body{
 	min-height:100vh;
 }
 
-
-
 .team{
 	background-color: #A84774;
 }
 
-.team .detail {
-	background-image:url('../txture8.jpg');
-}
-
 .detail{
-	background-image:url('../txture8.jpg');
-    background-size: cover;
-    min-height:100vh;
-    padding-top:20vh;
+    background-color:white;
+    color:black;
+    padding-top:0;
+    min-height:0;
+    padding-bottom: 0;
 }
 
-.goal{
-	background-image:url('../txture6.jpg');
-	background-size: cover;
+.team .detail {
+
 }
+
 
 .idea {
 	background-image:url('../txture8.jpg');
@@ -144,7 +139,6 @@ article {
 	padding-right: 15vw;
 	min-height:85vh;
     font-size:large;
-
 }
 
 header a {
@@ -181,6 +175,51 @@ footer {
 	background-size: cover;
 }
 
+#teamfooter, #projectfooter {
+    height:75vh;
+    background-image:url('../turqos_1920x1080.jpg');
+}
+
+.top-graphic{
+    height:100vh;
+    background-image:url('../sepia_1920x1080.jpg');
+    background-size: cover;
+}
+
+.top-graphic .content{
+    padding-top:30vh;
+    color:black;
+}
+
+.top-graphic .content img {
+    margin-top:10vh;
+}
+
+.top-graphic .content h1 {
+    margin-bottom:5%;
+    color:black;
+}
+
+#teamfooter #sponsors {
+    padding-top:34vh;
+}
+
+#teamfooter .bottom {
+    margin-top:17.5vh;
+}
+
+#projectfooter #sponsors {
+    padding-top:34vh;
+}
+
+#projectfooter .bottom {
+    margin-top:17.5vh;
+}
+
+.teampics {
+    margin-top:30vh;
+}
+
 header #navigation {
 }
 
@@ -206,6 +245,16 @@ footer h2 {
 }
 
 /* partnerit sivun taulukko */
+.partners {
+	color: white;
+	padding-top: 20vh;
+	background-image:url('../txture8.jpg');
+	background-size: cover;
+}
+.content-partners {
+	margin-bottom: 0;
+	padding-bottom: 15vh;
+}
 .sponsor-pack {
     font-size: 0.9em;
     font-weight: 400;
@@ -217,7 +266,7 @@ footer h2 {
     
 }
 
-.sponsor-pack:nth-child(even){
+.sponsor-pack:nth-child(even) {
     background-color: rgba(50,50,50,0.6);
 }
 .sponsor-pack h1{
