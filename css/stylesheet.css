@@ -14,6 +14,10 @@ a:hover, a:visited, a:link, a:active
 {
     text-decoration: none !important;
 }
+@font-face {
+    font-family: "Fairview-SmallCaps";
+    src: url(fonts/Fairview-SmallCaps.otf) format("truetype");
+}
 
 .big-text{
     margin-bottom: 5%;
@@ -68,21 +72,18 @@ body{
 	background-color: #912964;
 }
 
-.team .detail {
-	background-image:url('../txture8.jpg');
-}
-
 .detail{
-	background-image:url('../txture8.jpg');
-    background-size: cover;
-    min-height:100vh;
-    padding-top:20vh;
+    background-color:white;
+    color:black;
+    padding-top:0;
+    min-height:0;
+    padding-bottom: 0;
 }
 
-.goal{
-	background-image:url('../txture6.jpg');
-	background-size: cover;
+.team .detail {
+
 }
+
 
 .idea {
 	background-color: #0A4958;
@@ -106,7 +107,6 @@ article {
 	padding-right: 15vw;
 	min-height:85vh;
     font-size:large;
-
 }
 
 header a {
@@ -129,6 +129,51 @@ footer {
 	background-image:url('../txture7.jpg');
 	background-size: cover;
 	color: black;
+}
+
+#teamfooter, #projectfooter {
+    height:75vh;
+    background-image:url('../turqos_1920x1080.jpg');
+}
+
+.top-graphic{
+    height:100vh;
+    background-image:url('../sepia_1920x1080.jpg');
+    background-size: cover;
+}
+
+.top-graphic .content{
+    padding-top:30vh;
+    color:black;
+}
+
+.top-graphic .content img {
+    margin-top:10vh;
+}
+
+.top-graphic .content h1 {
+    margin-bottom:5%;
+    color:black;
+}
+
+#teamfooter #sponsors {
+    padding-top:34vh;
+}
+
+#teamfooter .bottom {
+    margin-top:17.5vh;
+}
+
+#projectfooter #sponsors {
+    padding-top:34vh;
+}
+
+#projectfooter .bottom {
+    margin-top:17.5vh;
+}
+
+.teampics {
+    margin-top:30vh;
 }
 
 header #navigation {
