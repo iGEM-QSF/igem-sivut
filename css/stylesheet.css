@@ -186,7 +186,7 @@ footer .bottom {
 .partners {
 	color: white;
 	padding-top: 20vh;
-	background-image:url('../img/txture6.jpg');
+	background-image:url('../img/DSC_6156-2.jpg');
 	background-size: cover;
 }
 .content-partners {
@@ -194,12 +194,14 @@ footer .bottom {
 	padding-bottom: 15vh;
 }
 .sponsor-pack {
-    font-size: 0.9em;
+    font-size: 1.1em;
     font-weight: 400;
     margin: 0 auto;
     border: 0px solid rgb(0,0,0);
+    //color: rgb(0,0,50);
     
-    background-color: rgba(255,255,255,0.1);
+    //background-color: rgba(255,255,255,0.1);
+    background-color: rgba(10,10,10,0.4);
     width: 80%;
     position: relative;
 
@@ -221,8 +223,8 @@ footer .bottom {
     right: 1em;
      width:0; 
      height:80px; 
-     border-right:25px solid rgb(50,210,00);
-     border-left:25px solid rgb(50,220,00);
+     border-right:25px solid rgb(180,00,100);
+     border-left:25px solid rgb(190,0,100);
      border-bottom:30px solid transparent;
     
 }
@@ -233,8 +235,8 @@ footer .bottom {
      border-bottom:30px solid transparent;    
 }
 .sponsor-circle.third {
-    border-right:25px solid rgb(00,100,160);
-     border-left:25px solid rgb(00,110,160);
+    border-right:25px solid rgb(00,110,60);
+     border-left:25px solid rgb(00,120,60);
      border-bottom:30px solid transparent;
 }
 
@@ -264,7 +266,11 @@ footer .bottom {
 #teamfooter .bottom, #projectfooter .bottom{
     margin-top:17.5vh;
 }
-
+#sponsorfooter {
+    background-image: none;
+    background-color: rgb(190,100,80);
+    
+}
 footer #navigation {
 	margin-top: 3vh;
 	margin-bottom: 1vh;
