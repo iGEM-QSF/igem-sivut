@@ -266,7 +266,11 @@ footer .bottom {
 #teamfooter .bottom, #projectfooter .bottom{
     margin-top:17.5vh;
 }
-
+#sponsorfooter {
+    background-image: none;
+    background-color: rgb(190,100,80);
+    
+}
 footer #navigation {
 	margin-top: 3vh;
 	margin-bottom: 1vh;
