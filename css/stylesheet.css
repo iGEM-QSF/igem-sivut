@@ -259,7 +259,7 @@ footer h2 {
 }
 
 #copyright {
-	font-size: 8px;
+	font-size: 10px;
 }
 
 #sponsors .row {
@@ -271,20 +271,23 @@ footer h2 {
     height: 85vh;
     
     //padding: 20vh 0;
-    //text-align: center;
+    
     
 }
 
 .valign-inner {
 	display: table-cell;
 	vertical-align: middle;
-    //padding: 0 15vw;
-    
-    vertical-align: middle;
-    //width: 50%;
-    //background-color: gray;
-}
 
+    
+
+    }
+.valign-inner-center {
+	margin-left: auto;
+    margin-right: auto;
+    width: 70%;
+    
+}
 @media (max-width: 700px) {
 	header #logo {
 		display: none;
