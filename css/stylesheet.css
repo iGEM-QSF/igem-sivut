@@ -119,12 +119,12 @@ footer {
 
 #teamfooter, #projectfooter {
     height:75vh;
-    background-image:url('../turqos_1920x1080.jpg');
+    background-image:url('../img/turqos_1920x1080.jpg');
 }
 
 .top-graphic{
     height:100vh;
-    background-image:url('../sepia_1920x1080.jpg');
+    background-image:url('../img/sepia_1920x1080.jpg');
     background-size: cover;
 }
 
