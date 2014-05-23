@@ -1,86 +1,54 @@
+@font-face {
+    font-family: "JuraBook";
+    src: url(fonts/JuraBook.ttf) format("truetype");
+}
+
+*{font-family:"JuraBook";}
+
+a:link {color:#50BCBC;}
+a:visited {color:#50BCBC;}
+a:hover {color:#FFFFFF;}
+a:active {color:black;}
+
+a:hover, a:visited, a:link, a:active
+{
+    text-decoration: none !important;
+}
+
+.big-text{
+    margin-bottom: 5%;
+    font-size:x-large;
+    margin-right:5%;
+}
+
 #logo{
 	//#height:13vh;
 
 	height: 8em;
 }
 
-@font-face {
-    font-family: "Kirvy-Regular";
-    src: url(fonts/Kirvy-Regular.otf) format("truetype");
-}
-
-@font-face {
-    font-family: "Fabrica";
-    src: url(fonts/Fabrica.otf) format("truetype");
-}
-
-@font-face {
-    font-family: "Infinity";
-    src: url(fonts/Infinity.ttf) format("truetype");
-}
-
-@font-face {
-    font-family: "Adam.CG";
-    src: url(fonts/ADAM.CG PRO.otf) format("truetype");
-}
-
-@font-face {
-    font-family: "Raleway-Regular";
-    src: url(fonts/Raleway-Regular.ttf) format("truetype");
-}
-
-@font-face {
-    font-family: "Fairview-Regular";
-    src: url(fonts/Fairview-Regular.otf) format("truetype");
-}
-
-@font-face {
-    font-family: "Fairview-SmallCaps";
-    src: url(fonts/Fairview-SmallCaps.otf) format("truetype");
-}
-
 #logobar{ 
     font-family: "ADAM.CG", Verdana, Tahoma;
-}
-
-.big-text{
-	font-family: "Kirvy-Regular", Verdana, Tahoma;
-    margin-bottom: 5%;
-    font-size:x-large;
-    margin-right:5%;
-}
-
-article h1 {
-    font-family: "Kirvy-Regular", Verdana, Tahoma;
-}
-
-#sponsors {
-	font-family: "Raleway-Regular", Verdana, Tahoma;
-}
-
-.more {
-    font-size:2em;
-    font-family: "Infinity", Verdana, Tahoma;
-}
-
-.team .more a, .team .more a:hover {
-    color:pink;
-}
-
-.support .more a, .support .more a:hover {
-    color:orange;
 }
 
 header #logo {
 	//height:9vh;
 	height: 4em;
-	
 }
+
 /* piilota logot pienellä näytöllä */
 @media (max-width: 600px) {
 	header #logo {
 		display: none;
 	}
+}
+
+article h1 {
+    font-family: "JuraBook", Verdana, Tahoma;
+}
+
+.more {
+    font-size:2em;
 }
 
 body{
@@ -96,10 +64,8 @@ body{
 	min-height:100vh;
 }
 
-
-
 .team{
-	background-color: #A84774;
+	background-color: #912964;
 }
 
 .team .detail {
@@ -119,16 +85,16 @@ body{
 }
 
 .idea {
-	background-image:url('../txture8.jpg');
-	background-size: cover;
+	background-color: #0A4958;
 }
 
 .follow {
-	background-color: #645E5E;
+	background-color: white;
+	color: black;
 }
 
 .support {
-	background-color: #F2EE74;
+	background-color: #F6E7D2;
 	color:black;
 }
 
@@ -148,19 +114,6 @@ header a {
 	padding-left: 1.5vw;
 }
 
-header a:hover {
-	color: white;
-}
-
-footer a {
-	color: white;
-	padding-left: 1.5vw;
-}
-
-footer a:hover {
-	color: white;
-}
-
 header .navbar {
 	background-color:rgba(0,0,0,0.5);
 	border:0px;
@@ -175,6 +128,7 @@ footer {
 	color:white;
 	background-image:url('../txture7.jpg');
 	background-size: cover;
+	color: black;
 }
 
 header #navigation {
