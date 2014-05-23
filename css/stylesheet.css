@@ -186,6 +186,39 @@ footer .bottom {
     margin-right:0;
 }
 
+/* partnerit sivun taulukko */
+.partners {
+	color: white;
+	padding-top: 20vh;
+	background-image:url('../img/sepia_1920x1080.jpg');
+	background-size: cover;
+}
+.content-partners {
+	margin-bottom: 0;
+	padding-bottom: 15vh;
+}
+.sponsor-pack {
+    font-size: 0.9em;
+    font-weight: 400;
+    margin: 0 auto;
+    border: 0px solid rgb(0,0,0);
+    background-color: rgba(10,10,10,0.6);
+    width: 80%;
+}
+
+.sponsor-pack:nth-child(even) {
+    background-color: rgba(50,50,50,0.6);
+}
+.sponsor-pack h1{
+    font-size: 1.8em;
+    text-align: center;
+    padding: 0.5em 0;
+}
+.sponsor-pack .sisalto {
+    margin: 0 auto;
+    width: 80%;
+}
+
 /* Tabisivujen footerien tyylit */
 
 #teamfooter, #projectfooter {
@@ -247,39 +280,6 @@ footer h2 {
     vertical-align: middle;
     //width: 50%;
     //background-color: gray;
-}
-
-/* partnerit sivun taulukko */
-.partners {
-	color: white;
-	padding-top: 20vh;
-	background-image:url('../img/sepia_1920x1080.jpg');
-	background-size: cover;
-}
-.content-partners {
-	margin-bottom: 0;
-	padding-bottom: 15vh;
-}
-.sponsor-pack {
-    font-size: 0.9em;
-    font-weight: 400;
-    margin: 0 auto;
-    border: 0px solid rgb(0,0,0);
-    background-color: rgba(10,10,10,0.6);
-    width: 80%;
-}
-
-.sponsor-pack:nth-child(even) {
-    background-color: rgba(50,50,50,0.6);
-}
-.sponsor-pack h1{
-    font-size: 1.8em;
-    text-align: center;
-    padding: 0.5em 0;
-}
-.sponsor-pack .sisalto {
-    margin: 0 auto;
-    width: 80%;
 }
 
 @media (max-width: 700px) {
