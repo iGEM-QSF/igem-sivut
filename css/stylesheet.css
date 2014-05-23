@@ -43,7 +43,7 @@ header .navbar {
 
 .top-graphic{
     height:100vh;
-    background-image:url('../sepia_1920x1080.jpg');
+    background-image:url('../img/sepia_1920x1080.jpg');
     background-size: cover;
 }
 
@@ -102,7 +102,7 @@ article h1 {
 
 .what{
 	padding-top: 20vh;
-	background-image:url('../sepia_1920x1080.jpg');
+	background-image:url('../img/sepia_1920x1080.jpg');
 	background-size: cover;
 	min-height:100vh;
 	color: black;
@@ -190,22 +190,14 @@ footer .bottom {
 
 #teamfooter, #projectfooter {
     height:75vh;
-    background-image:url('../turqos_1920x1080.jpg');
+    background-image:url('../img/turqos_1920x1080.jpg');
 }
 
-#teamfooter #sponsors {
+#teamfooter #sponsors, #projectfooter #sponsors {
     padding-top:34vh;
 }
 
-#teamfooter .bottom {
-    margin-top:17.5vh;
-}
-
-#projectfooter #sponsors {
-    padding-top:34vh;
-}
-
-#projectfooter .bottom {
+#teamfooter .bottom, #projectfooter .bottom {
     margin-top:17.5vh;
 }
 
