@@ -211,9 +211,9 @@ footer h2 {
 
 /* partnerit sivun taulukko */
 .partners {
-	color: white;
+	color: black;
 	padding-top: 20vh;
-	background-image:url('../img/sepia_1920x1080.jpg');
+	background-image:url('../img/DSC_6048_3.jpg');
 	background-size: cover;
 }
 .content-partners {
@@ -225,13 +225,16 @@ footer h2 {
     font-weight: 400;
     margin: 0 auto;
     border: 0px solid rgb(0,0,0);
-    background-color: rgba(10,10,10,0.6);
+    //background-color: rgba(10,10,10,0.6);
+    background-color: rgba(255,255,255,0.7);
     width: 80%;
-    
+    position: relative;
+   // color: white;
 }
 
 .sponsor-pack:nth-child(even) {
-    background-color: rgba(50,50,50,0.6);
+    //background-color: rgba(50,50,50,0.4);
+    //background-color: rgba(255,255,255,0.7);
 }
 .sponsor-pack h1{
     font-size: 1.8em;
@@ -242,7 +245,34 @@ footer h2 {
     margin: 0 auto;
     width: 80%;
 }
-
+.sponsor-circle {
+     position: absolute;
+    right: 1em;
+     width:0; 
+     height:80px; 
+     border-right:25px solid rgb(50,210,00);
+     border-left:25px solid rgb(50,220,00);
+     border-bottom:30px solid transparent;
+    
+}
+.sponsor-circle.first {
+    //background: rgb(50,210,00);
+    
+}
+.sponsor-circle.second {
+    //background: rgb(250,150,00);
+    
+     border-right:25px solid rgb(250,150,00);
+     border-left:25px solid rgb(250,160,00);
+     border-bottom:30px solid transparent;
+    
+}
+.sponsor-circle.third {
+    
+    border-right:25px solid rgb(00,100,160);
+     border-left:25px solid rgb(00,110,160);
+     border-bottom:30px solid transparent;
+}
 @media (max-width: 700px) {
 	header #logo {
 		display: none;
