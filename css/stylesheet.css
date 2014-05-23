@@ -219,18 +219,29 @@ footer .bottom {
     width: 80%;
 }
 
+/* Pääsivun footer */
+
+#mainfooter {
+    min-height:50vh;
+    background-image:url('../img/1920x1080_FOOTER.jpg');
+}
+
 /* Tabisivujen footerien tyylit */
 
 #teamfooter, #projectfooter {
-    height:75vh;
+    min-height:75vh;
     background-image:url('../img/turqos_1920x1080.jpg');
 }
 
-#teamfooter #sponsors, #projectfooter #sponsors {
+ #mainfooter #sponsors {
+ 	padding-top:20vh;
+ }
+
+#teamfooter #sponsors, #projectfooter #sponsors{
     padding-top:34vh;
 }
 
-#teamfooter .bottom, #projectfooter .bottom {
+#teamfooter .bottom, #projectfooter .bottom{
     margin-top:17.5vh;
 }
 
