@@ -39,7 +39,7 @@
     src: url(fonts/Fairview-SmallCaps.otf) format("truetype");
 }
 
-#logobar{ 
+#logobar{
     font-family: "ADAM.CG", Verdana, Tahoma;
 }
 
@@ -74,7 +74,7 @@ article h1 {
 header #logo {
 	//height:9vh;
 	height: 4em;
-	
+
 }
 /* piilota logot pienellä näytöllä */
 @media (max-width: 600px) {
@@ -96,27 +96,20 @@ body{
 	min-height:100vh;
 }
 
-
-
 .team{
 	background-color: #A84774;
 }
 
-.team .detail {
-	background-image:url('../txture8.jpg');
-}
-
 .detail{
-	background-image:url('../txture8.jpg');
-    background-size: cover;
+    background-color:white;
+    color:black;
     min-height:100vh;
-    padding-top:20vh;
 }
 
-.goal{
-	background-image:url('../txture6.jpg');
-	background-size: cover;
+.team .detail {
+
 }
+
 
 .idea {
 	background-image:url('../txture8.jpg');
@@ -140,7 +133,6 @@ article {
 	padding-right: 15vw;
 	min-height:85vh;
     font-size:large;
-
 }
 
 header a {
@@ -175,6 +167,43 @@ footer {
 	color:white;
 	background-image:url('../txture7.jpg');
 	background-size: cover;
+}
+
+#teamfooter {
+    height:75vh;
+    background-image:url('../turqos_1920x1080.jpg');
+}
+
+.top-graphic{
+    height:100vh;
+    background-image:url('../sepia_1920x1080.jpg');
+    background-size: cover;
+}
+
+.top-graphic .content{
+    padding-top:30vh;
+    color:black;
+}
+
+.top-graphic .content img {
+    margin-top:10vh;
+}
+
+.top-graphic .content h1 {
+    margin-bottom:5%;
+    color:black;
+}
+
+#teamfooter #sponsors {
+    padding-top:34vh;
+}
+
+#teamfooter .bottom {
+    margin-top:17.5vh;
+}
+
+.teampics {
+    margin-top:17%;
 }
 
 header #navigation {
