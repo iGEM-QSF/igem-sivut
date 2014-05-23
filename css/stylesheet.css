@@ -184,9 +184,9 @@ footer .bottom {
 
 /* partnerit sivun taulukko */
 .partners {
-	color: black;
+	color: white;
 	padding-top: 20vh;
-	background-image:url('../img/DSC_6048_3.jpg');
+	background-image:url('../img/txture6.jpg');
 	background-size: cover;
 }
 .content-partners {
@@ -198,8 +198,8 @@ footer .bottom {
     font-weight: 400;
     margin: 0 auto;
     border: 0px solid rgb(0,0,0);
-
-    background-color: rgba(255,255,255,0.7);
+    
+    background-color: rgba(255,255,255,0.1);
     width: 80%;
     position: relative;
 
