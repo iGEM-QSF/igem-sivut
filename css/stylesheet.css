@@ -1,6 +1,4 @@
 #logo{
-	//#height:13vh;
-
 	height: 8em;
 }
 
@@ -10,9 +8,20 @@
 }
 
 @font-face {
+    font-family: "Stroke-Regular";
+    src: url(fonts/Stroke-Regular.otf) format("truetype");
+}
+
+@font-face {
     font-family: "Fabrica";
     src: url(fonts/Fabrica.otf) format("truetype");
 }
+
+@font-face {
+    font-family: "Ostrich";
+    src: url(fonts/ostrich-regular.ttf) format("truetype");
+}
+
 
 @font-face {
     font-family: "Infinity";
@@ -72,16 +81,11 @@ article h1 {
 }
 
 header #logo {
-	//height:9vh;
 	height: 4em;
 
 }
 /* piilota logot pienellä näytöllä */
-@media (max-width: 600px) {
-	header #logo {
-		display: none;
-	}
-}
+
 
 body{
 	background-color:black;
@@ -238,4 +242,52 @@ footer h2 {
 
 #sponsors .row {
     margin-right:0;
+}
+
+/* partnerit sivun taulukko */
+.partners {
+	color: white;
+	padding-top: 20vh;
+	background-image:url('../txture8.jpg');
+	background-size: cover;
+}
+.content-partners {
+	margin-bottom: 0;
+	padding-bottom: 15vh;
+}
+.sponsor-pack {
+    font-size: 0.9em;
+    font-weight: 400;
+    font-family: 'Titillium Web', sans-serif;
+    margin: 0 auto;
+    border: 0px solid rgb(0,0,0);
+    background-color: rgba(10,10,10,0.6);
+    width: 80%;
+    
+}
+
+.sponsor-pack:nth-child(even) {
+    background-color: rgba(50,50,50,0.6);
+}
+.sponsor-pack h1{
+    font-size: 1.8em;
+    text-align: center;
+    padding: 0.5em 0;
+}
+.sponsor-pack .sisalto {
+    margin: 0 auto;
+    width: 80%;
+}
+
+@media (max-width: 700px) {
+	header #logo {
+		display: none;
+	}
+    /* partnerit sivun taulukko responsiiviseksi ilman bootstrappia joka ei toimi */
+    .sponsor-pack {
+        width: 100%;
+        font-size: 0.8em;
+    }
+    
+
 }
