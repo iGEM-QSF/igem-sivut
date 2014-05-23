@@ -103,7 +103,9 @@ body{
 .detail{
     background-color:white;
     color:black;
-    min-height:100vh;
+    padding-top:0;
+    min-height:0;
+    padding-bottom: 0;
 }
 
 .team .detail {
@@ -169,7 +171,7 @@ footer {
 	background-size: cover;
 }
 
-#teamfooter {
+#teamfooter, #projectfooter {
     height:75vh;
     background-image:url('../turqos_1920x1080.jpg');
 }
@@ -202,8 +204,16 @@ footer {
     margin-top:17.5vh;
 }
 
+#projectfooter #sponsors {
+    padding-top:34vh;
+}
+
+#projectfooter .bottom {
+    margin-top:17.5vh;
+}
+
 .teampics {
-    margin-top:17%;
+    margin-top:30vh;
 }
 
 header #navigation {
