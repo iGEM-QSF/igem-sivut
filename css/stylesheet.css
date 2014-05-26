@@ -5,6 +5,15 @@
 
 *{font-family:"TitilliumWeb";}
 
+a:link {color:#FFFFFF;}
+a:visited {color:#FFFFFF;}
+a:hover {color:#50BCBC;}
+a:active {color:black;}
+
+a:hover, a:visited, a:link, a:active {
+    text-decoration: none !important;
+}
+
 #logo{
 	height: 8em;
 }
@@ -24,7 +33,7 @@ header a {
 	padding-left: 1.5vw;
 }
 
-header a:hover {
+header h1 a:hover {
 	color: white;
 }
 
@@ -62,15 +71,6 @@ header .navbar {
 }
 
 /* Leipätekstin modifikaatio */
-
-a:link {color:#50BCBC;}
-a:visited {color:#50BCBC;}
-a:hover {color:#FFFFFF;}
-a:active {color:black;}
-
-a:hover, a:visited, a:link, a:active {
-    text-decoration: none !important;
-}
 
 .big-text{
     margin-bottom: 5%;
