@@ -73,6 +73,7 @@ header .navbar {
 .top-graphic .content{
     padding-top:30vh;
     color:black;
+    text-align:justify;
 }
 
 .top-graphic .content img {
@@ -155,37 +156,8 @@ article h1 {
     padding-bottom: 0;
 }
 
-/* Footerin tyylit */
-
-footer {
-	padding-top: 20px;
-	color:white;
-	background-image:url('../img/turqous.jpg');
-	background-size: cover;
-	color: black;
-}
-
-footer a {
-	color: white;
-	padding-left: 1.5vw;
-}
-
-footer a:hover {
-	color: white;
-}
-
-footer #navigation {
-	margin-top: 3vh;
-	margin-bottom: 1vh;
-}
-
-footer .bottom {
-	background-color:rgba(0,0,0,0.5);
-	padding-bottom: 0.5vh;
-}
-
-#copyright {
-	font-size: 8px;
+.team-detail {
+	text-align:justify;
 }
 
 #sponsors {
@@ -203,10 +175,12 @@ footer .bottom {
 	background-image:url('../img/DSC_6156-2.jpg');
 	background-size: cover;
 }
+
 .content-partners {
 	margin-bottom: 0;
 	padding-bottom: 15vh;
 }
+
 .sponsor-pack {
     font-size: 1.1em;
     font-weight: 400;
@@ -254,6 +228,36 @@ footer .bottom {
      border-bottom:30px solid transparent;
 }
 
+
+/* Footerin tyylit */
+
+footer {
+	padding-top: 20px;
+	color:white;
+	background-image:url('../img/turqous.jpg');
+	background-size: cover;
+	color: black;
+}
+
+footer a {
+	color: white;
+	padding-left: 1.5vw;
+}
+
+footer a:hover {
+	color: white;
+}
+
+footer #navigation {
+	margin-top: 3vh;
+	margin-bottom: 1vh;
+}
+
+footer .bottom {
+	background-color:rgba(0,0,0,0.7);
+	padding-bottom: 0.5vh;
+}
+
 /* Pääsivun footer */
 
 #mainfooter {
@@ -269,8 +273,7 @@ footer .bottom {
 }
 
  #mainfooter #sponsors {
- 	padding-top:20vh;
-     
+ 	padding-top:20vh; 
  }
 
 #teamfooter #sponsors, #projectfooter #sponsors{
@@ -285,22 +288,6 @@ footer .bottom {
     background-color: #EDAC91;
     
 }
-footer #navigation {
-	margin-top: 3vh;
-	margin-bottom: 1vh;
-}
-
-footer .bottom {
-	background-color:rgba(0,0,0,0.7);
-	padding-bottom: 0.5vh;
-}
-
-footer a {
-	padding-left: 1.5vw;
-}
-
-footer h2 {
-}
 
 #copyright {
 	font-size: 10px;
@@ -314,9 +301,7 @@ footer h2 {
     width: 100%;
     height: 85vh;
     
-    //padding: 20vh 0;
-    
-    
+    //padding: 20vh 0;    
 }
 
 .valign-inner {
