@@ -16,6 +16,7 @@ a:hover, a:visited, a:link, a:active {
 
 #logo{
 	height: 8em;
+    padding-bottom: 1em;
 }
 
 /* Header-jutut */
@@ -43,8 +44,14 @@ header h1{
 header #logo {
 	margin-top: 1.5em;
 	padding-left:1em;
-	height: 3em;
+	height: 1.5em;
 	margin-right:0.2em;
+
+}
+
+header #lang {
+    margin-top: 1.5em;
+    font-size: 0.6em;
 }
 
 header .navbar {
@@ -130,6 +137,10 @@ article h1 {
 .follow {
 	background-color: white;
 	color: black;
+}
+
+#sm-logo {
+    padding-bottom: 1em;
 }
 
 .support {
