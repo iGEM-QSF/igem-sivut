@@ -69,7 +69,7 @@ header .navbar {
 
 .top-graphic{
     min-height:100vh;
-    background-image:url('../img/sepia_1920x1080.jpg');
+    background-image: url('../img/sepia_1920x1080_pack.jpg');
     background-size: cover;
 }
 
@@ -120,7 +120,7 @@ article h1 {
 
 .what{
 	padding-top: 20vh;
-	background-image:url('../img/sepia_1920x1080.jpg');
+	background-image:url('../img/sepia_1920x1080_pack.jpg');
 	background-size: cover;
 	min-height:100vh;
 	color: black;
@@ -175,7 +175,7 @@ article h1 {
 .partners {
 	color: white;
 	padding-top: 20vh;
-	background-image:url('../img/DSC_6156-2.jpg');
+	background-image:url('../img/DSC_6156-2_pack.jpg');
 	background-size: cover;
 }
 
@@ -251,7 +251,7 @@ article h1 {
 footer {
 	padding-top: 20px;
 	color:white;
-	background-image:url('../img/turqous.jpg');
+	background-image:url('../img/turqous_pack.jpg');
 	background-size: cover;
 	color: black;
 }
@@ -279,14 +279,14 @@ footer .bottom {
 
 #mainfooter {
     min-height:50vh;
-    background-image:url('../img/1920x1080_FOOTER.jpg');
+    background-image:url('../img/1920x1080_FOOTER_pack.jpg');
 }
 
 /* Tabisivujen footerien tyylit */
 
 #teamfooter, #projectfooter {
     min-height:75vh;
-    background-image:url('../img/turqos_1920x1080.jpg');
+    background-image:url('../img/turqos_1920x1080_pack.jpg');
 }
 
 #mainfooter #sponsors {
