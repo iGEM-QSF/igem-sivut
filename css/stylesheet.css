@@ -54,7 +54,7 @@ header #lang {
     font-size: 0.6em;
 }
 
-header .navbar {
+header .navbar { 
 	background-color:rgba(0,0,0,0.7);
 	border:0px;
 }
