@@ -54,7 +54,7 @@ header #lang {
     font-size: 0.6em;
 }
 
-header .navbar { 
+header .navbar {
 	background-color:rgba(0,0,0,0.7);
 	border:0px;
 }
@@ -124,6 +124,7 @@ article h1 {
 	background-size: cover;
 	min-height:100vh;
 	color: black;
+    text-align: center;
 }
 
 .team{
@@ -210,19 +211,19 @@ article h1 {
 .sponsor-circle {
      position: absolute;
     right: 1em;
-     width:0; 
-     height:80px; 
+     width:0;
+     height:80px;
      border-right:25px solid rgb(180,00,100);
      border-left:25px solid rgb(190,0,100);
      border-bottom:30px solid transparent;
-    
+
 }
 
 
 .sponsor-circle.second {
      border-right:25px solid rgb(250,150,00);
      border-left:25px solid rgb(250,160,00);
-     border-bottom:30px solid transparent;    
+     border-bottom:30px solid transparent;
 }
 .sponsor-circle.third {
     border-right:25px solid rgb(00,110,60);
@@ -230,7 +231,7 @@ article h1 {
      border-bottom:30px solid transparent;
 }
 
-.sponsor-list {       
+.sponsor-list {
     padding: 1em;
     font-size: 1.1em;
     font-weight: 400;
@@ -290,7 +291,7 @@ footer .bottom {
 }
 
 #mainfooter #sponsors {
- 	padding-top:20vh; 
+ 	padding-top:20vh;
  }
 
 #teamfooter #sponsors, #projectfooter #sponsors{
@@ -303,7 +304,7 @@ footer .bottom {
 #sponsorfooter {
     background-image: none;
     background-color: #EDAC91;
-    
+
 }
 
 #copyright {
@@ -317,8 +318,8 @@ footer .bottom {
 	display: table;
     width: 100%;
     height: 85vh;
-    
-    //padding: 20vh 0;    
+
+    //padding: 20vh 0;
 }
 
 .valign-inner {
@@ -330,7 +331,7 @@ footer .bottom {
 	margin-left: auto;
     margin-right: auto;
     width: 70%;
-    
+
 }
 @media (max-width: 700px) {
 	header #logo {
