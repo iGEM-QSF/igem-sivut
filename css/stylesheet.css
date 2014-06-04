@@ -11,7 +11,15 @@ a:hover {color:#50BCBC;}
 a:active {color:black;}
 
 a:hover, a:visited, a:link, a:active {
+    /* poistin ton !importantin. kyllä linkit pitää normitekstissä alleviivata eikä se nyt onnistu
+     * text-decoration: none !important; */
+}
+a:not(.underline) {
     text-decoration: none !important;
+
+}
+
+#ahlogo{
 }
 
 #logo{
@@ -50,7 +58,7 @@ header #logo {
 }
 
 header #lang {
-    margin-top: 1.5em;
+    margin-top: 2em;
     font-size: 0.6em;
 }
 
@@ -179,6 +187,31 @@ article h1 {
     margin-right:0;
 }
 
+.img-cheesy {
+    margin: 3em auto;
+    text-align: center;
+    font-style: italic;
+   }
+.img-cheesy img {
+    text-align: center;
+    margin: 0 auto;
+    padding: 0;
+}
+.img-cheesy i {
+    margin: 0;
+    padding: 0;
+}
+
+.blacklinks {
+   
+}
+.blacklinks a{
+    color: black;
+    text-decoration: underline;
+}
+.view-padding {
+    padding-top: 8vh;
+}
 /* partnerit sivun taulukko */
 .partners {
 	color: white;
