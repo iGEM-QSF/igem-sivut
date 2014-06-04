@@ -58,7 +58,7 @@ header #logo {
 }
 
 header #lang {
-    margin-top: 2em;
+    margin-top: 3em;
     font-size: 0.6em;
 }
 
@@ -68,7 +68,7 @@ header .navbar {
 }
 
 #navigation {
-	margin-top: 1.5em;
+	margin-top: 2.5em;
 }
 
 /* Header päättyy */
