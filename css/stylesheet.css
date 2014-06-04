@@ -11,7 +11,15 @@ a:hover {color:#50BCBC;}
 a:active {color:black;}
 
 a:hover, a:visited, a:link, a:active {
+    /* poistin ton !importantin. kyllä linkit pitää normitekstissä alleviivata eikä se nyt onnistu
+     * text-decoration: none !important; */
+}
+a:not(.underline) {
     text-decoration: none !important;
+
+}
+
+#ahlogo{
 }
 
 #logo{
@@ -50,11 +58,11 @@ header #logo {
 }
 
 header #lang {
-    margin-top: 1.5em;
+    margin-top: 2em;
     font-size: 0.6em;
 }
 
-header .navbar { 
+header .navbar {
 	background-color:rgba(0,0,0,0.7);
 	border:0px;
 }
@@ -69,7 +77,7 @@ header .navbar {
 
 .top-graphic{
     min-height:100vh;
-    background-image:url('../img/sepia_1920x1080.jpg');
+    background-image: url('../img/sepia_1920x1080_pack.jpg');
     background-size: cover;
 }
 
@@ -120,14 +128,22 @@ article h1 {
 
 .what{
 	padding-top: 20vh;
-	background-image:url('../img/sepia_1920x1080.jpg');
+	background-image:url('../img/sepia_1920x1080_pack.jpg');
 	background-size: cover;
 	min-height:100vh;
 	color: black;
+    text-align: center;
 }
 
 .team{
 	background-color: #912964;
+}
+
+.university-title {
+    color: rgb(81,81,81);
+    font-style: italic;
+    font-size: 20px;
+    margin-top: 0;
 }
 
 .idea {
@@ -171,11 +187,36 @@ article h1 {
     margin-right:0;
 }
 
+.img-cheesy {
+    margin: 3em auto;
+    text-align: center;
+    font-style: italic;
+   }
+.img-cheesy img {
+    text-align: center;
+    margin: 0 auto;
+    padding: 0;
+}
+.img-cheesy i {
+    margin: 0;
+    padding: 0;
+}
+
+.blacklinks {
+   
+}
+.blacklinks a{
+    color: black;
+    text-decoration: underline;
+}
+.view-padding {
+    padding-top: 8vh;
+}
 /* partnerit sivun taulukko */
 .partners {
 	color: white;
 	padding-top: 20vh;
-	background-image:url('../img/DSC_6156-2.jpg');
+	background-image:url('../img/DSC_6156-2_pack.jpg');
 	background-size: cover;
 }
 
@@ -210,19 +251,19 @@ article h1 {
 .sponsor-circle {
      position: absolute;
     right: 1em;
-     width:0; 
-     height:80px; 
+     width:0;
+     height:80px;
      border-right:25px solid rgb(180,00,100);
      border-left:25px solid rgb(190,0,100);
      border-bottom:30px solid transparent;
-    
+
 }
 
 
 .sponsor-circle.second {
      border-right:25px solid rgb(250,150,00);
      border-left:25px solid rgb(250,160,00);
-     border-bottom:30px solid transparent;    
+     border-bottom:30px solid transparent;
 }
 .sponsor-circle.third {
     border-right:25px solid rgb(00,110,60);
@@ -230,7 +271,7 @@ article h1 {
      border-bottom:30px solid transparent;
 }
 
-.sponsor-list {       
+.sponsor-list {
     padding: 1em;
     font-size: 1.1em;
     font-weight: 400;
@@ -251,7 +292,7 @@ article h1 {
 footer {
 	padding-top: 20px;
 	color:white;
-	background-image:url('../img/turqous.jpg');
+	background-image:url('../img/turqous_pack.jpg');
 	background-size: cover;
 	color: black;
 }
@@ -279,18 +320,18 @@ footer .bottom {
 
 #mainfooter {
     min-height:50vh;
-    background-image:url('../img/1920x1080_FOOTER.jpg');
+    background-image:url('../img/1920x1080_FOOTER_pack.jpg');
 }
 
 /* Tabisivujen footerien tyylit */
 
 #teamfooter, #projectfooter {
     min-height:75vh;
-    background-image:url('../img/turqos_1920x1080.jpg');
+    background-image:url('../img/turqos_1920x1080_pack.jpg');
 }
 
 #mainfooter #sponsors {
- 	padding-top:20vh; 
+ 	padding-top:20vh;
  }
 
 #teamfooter #sponsors, #projectfooter #sponsors{
@@ -303,7 +344,7 @@ footer .bottom {
 #sponsorfooter {
     background-image: none;
     background-color: #EDAC91;
-    
+
 }
 
 #copyright {
@@ -317,8 +358,8 @@ footer .bottom {
 	display: table;
     width: 100%;
     height: 85vh;
-    
-    //padding: 20vh 0;    
+
+    //padding: 20vh 0;
 }
 
 .valign-inner {
@@ -330,7 +371,7 @@ footer .bottom {
 	margin-left: auto;
     margin-right: auto;
     width: 70%;
-    
+
 }
 @media (max-width: 700px) {
 	header #logo {
