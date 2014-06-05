@@ -326,7 +326,6 @@ footer .bottom {
 /* Tabisivujen footerien tyylit */
 
 #teamfooter, #projectfooter {
-    min-height:75vh;
     background-image:url('../img/turqos_1920x1080_pack.jpg');
 }
 
