@@ -307,7 +307,7 @@ footer a:hover {
 }
 
 footer #navigation {
-	margin-top: 3vh;
+	padding-top: 1vh;
 	margin-bottom: 1vh;
 }
 
@@ -344,11 +344,11 @@ footer .bottom {
 #sponsorfooter {
     background-image: none;
     background-color: #EDAC91;
-
 }
 
-#copyright {
-	font-size: 10px;
+#contact {
+    font-size: 10px;
+    color:white;
 }
 
 #sponsors .row {
