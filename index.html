@@ -7,6 +7,7 @@
     <meta name="description" content="">
     <meta name="author" content="">
     <link rel="stylesheet" type="text/css" href="css/stylesheet.css">
+    <link rel="stylesheet" href="css/flipclock.css">
 
     <title>Aalto-Helsinki iGEM</title>
 
@@ -53,7 +54,7 @@
                    <img src="img/transp-big.png" id="ahlogobig" class="img-responsive">
                    <br>
                    <p class="big-text">
-                       Meidän kilpailutyömme tähän synteettisen biologian kilpailuun on prototyyppi bakteerisysteemistä, joka tekee jotakin ennenhaistamatonta.
+                       Meidän kilpailutyömme tähän synteettisen biologian kilpailuun on prototyyppi bakteerisysteemistä, joka antaa ohjat käsiisi.
                    </p>
                    <p class="big-text">
                        Vieritä alas ja ota selvää, mistä on kyse!
@@ -120,17 +121,20 @@
                 <h1>Kilpailutyö</h1>
                 <br>
                 <p class="big-text">
-                    Kuvittele, että voisit teatterissa tai elokuvissa tuntea metsän, meren tai kaupungin tuoksun vastaavassa kohtauksessa.
-                </p>
-                <p class="big-text">
-                    Mitäpä, jos voisit kaukosäätimellä vaihtaa tuoksutunnelmaa saunassa tai olohuoneessa?
-                </p>
-                <p class="big-text">
-                    Yllättyisitkö, jos hotellihuoneesi tuoksuisi isoäidin mökiltä tai vaikkapa linnalta?
-                </p>
-                <p class="big-text">
-                    Me teemme tutkimusta näiden sovelluksien mahdollistamiseksi!
-                </p>
+                        Uusi mahtava ideamme julkistetaan:
+                        <script src="js/jquery-2.1.1.min.js"></script>
+                        <script src="js/flipclock.min.js"></script>
+                        <div class="clock"></div>
+                        <script type="text/javascript">
+                            var start = new Date();
+                            var end = new Date(2014, 6, 7, 12, 0, 0, 0);
+                            var dec = Math.abs(start-end);
+                            var clock = $('.clock').FlipClock(dec / 1000, {
+                                clockFace: 'DailyCounter',
+                                countdown: true
+                            });
+                        </script>
+                    </p>
                 <div class="more">
                     <a href="project.html#view-project">
                         <span class="glyphicon glyphicon-forward"></span>
