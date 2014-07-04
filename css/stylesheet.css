@@ -159,6 +159,14 @@ article h1 {
     color: black;
 }
 
+.seekers a.BBSeeker {
+    color:#B00C69;
+}
+
+.seekers a.TSeeker {
+    color:#399f70;
+}
+
 #sm-logo {
     padding-bottom: 1em;
 }
