@@ -157,6 +157,10 @@ article h1 {
 
 .seekers {
     color: black;
+    background-image:url('../img/kasi_vectored_gradient.png');
+    background-image: 0.5;
+    background-position:center;
+    background-repeat: no-repeat;
 }
 
 #sm-logo {
