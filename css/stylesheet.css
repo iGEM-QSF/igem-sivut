@@ -157,10 +157,18 @@ article h1 {
 
 .seekers {
     color: black;
-    background-image:url('../img/kasi_vectored_gradient.png');
-    background-image: 0.5;
+    background-image:url('../img/kasi_vectored_gradient_transp.png');
+    background-size: 40%;
     background-position:center;
     background-repeat: no-repeat;
+}
+
+.seekers a.BBSeeker {
+    color:#B00C69;
+}
+
+.seekers a.TSeeker {
+    color:#399f70;
 }
 
 #sm-logo {
