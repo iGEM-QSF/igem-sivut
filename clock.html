@@ -1,0 +1,16 @@
+<link rel="stylesheet" href="css/flipclock.css">
+
+...
+
+<script src="js/jquery-2.1.1.min.js"></script>
+<script src="js/flipclock.min.js"></script>
+<div class="clock"></div>
+<script type="text/javascript">
+    var start = new Date();
+    var end = new Date(2014, 9, 30, 9, 0, 0, 0);
+    var dec = Math.abs(start-end);
+    var clock = $('.clock').FlipClock(dec / 1000, {
+        clockFace: 'DailyCounter',
+        countdown: true
+    });
+</script>
