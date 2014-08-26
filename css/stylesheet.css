@@ -317,19 +317,16 @@ footer {
 }
 
 #logorowmain {
-  min-height:50vh;
   background-image:url('../img/1920x1080_FOOTER_pack.jpg');
   background-size: cover;
 }
 
 #logorowtab {
-    min-height:50vh;
 	background-image:url('../img/turqos_1920x1080_pack.jpg');
 	background-size: cover;
 }
 
 #logorowpartners {
-    min-height:50vh;
     background: #FFDFBA;
 }
 /* Footerin tyylit loppu */
@@ -363,10 +360,6 @@ footer .bottom {
 }
 
 /* Bottom navigaatio loppu */
-
-
-
-/* Tabisivujen footerien tyylit */
 
 
 /* Valign? */
