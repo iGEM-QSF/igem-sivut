@@ -301,7 +301,6 @@ article h1 {
 
 footer {
   text-align: center;
-  background: white;
   color: white;
 }
 
@@ -317,16 +316,19 @@ footer {
 }
 
 #logorowmain {
-  background-image:url('../img/1920x1080_FOOTER_pack.jpg');
-  background-size: cover;
+    padding-top: 100px;
+    background-image:url('../img/1920x1080_FOOTER_pack.jpg');
+    background-size: cover;
 }
 
 #logorowtab {
+    padding-top: 100px;
 	background-image:url('../img/turqos_1920x1080_pack.jpg');
 	background-size: cover;
 }
 
 #logorowpartners {
+    padding-top: 50px;
     background: #FFDFBA;
 }
 /* Footerin tyylit loppu */
