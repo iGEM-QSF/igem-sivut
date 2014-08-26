@@ -11,15 +11,11 @@ a:hover {color:#50BCBC;}
 a:active {color:black;}
 
 a:hover, a:visited, a:link, a:active {
-    /* poistin ton !importantin. kyllä linkit pitää normitekstissä alleviivata eikä se nyt onnistu
-     * text-decoration: none !important; */
+
 }
+
 a:not(.underline) {
     text-decoration: none !important;
-
-}
-
-#ahlogo{
 }
 
 #logo{
@@ -35,13 +31,11 @@ header {
 
 header a {
 	color: white;
-	padding-right: 3vw;
+	padding-right: 1.5vw;
+    padding-left: 1.5vw;
 	font-size: 1.5em;
 }
 
-.last-link {
-	padding-right:1vw;
-}
 
 header h1{
 	font-size: 1.35em;
@@ -306,20 +300,51 @@ article h1 {
 /* Footerin tyylit */
 
 footer {
-	padding-top: 20px;
-	color:white;
-	background-image:url('../img/turqous_pack.jpg');
-	background-size: cover;
-	color: black;
+  text-align: center;
+  background: white;
+  color: white;
 }
+
+.footerimg {
+  max-height: 100px;
+  max-width: 250px !important;
+}
+
+.footerlogo {
+  display: inline-block;
+  vertical-align: middle;
+  padding: 20px;
+}
+
+#logorowmain {
+  min-height:50vh;
+  background-image:url('../img/1920x1080_FOOTER_pack.jpg');
+  background-size: cover;
+}
+
+#logorowtab {
+    min-height:50vh;
+	background-image:url('../img/turqos_1920x1080_pack.jpg');
+	background-size: cover;
+}
+
+#logorowpartners {
+    min-height:50vh;
+    background: #FFDFBA;
+}
+/* Footerin tyylit loppu */
+
+
+
+/* Bottom navigaatio */
 
 footer a {
 	color: white;
-	padding-left: 1.5vw;
+	padding: 0.75vw;
 }
 
 footer a:hover {
-	color: white;
+	color: #50BCBC;
 }
 
 footer #navigation {
@@ -332,43 +357,19 @@ footer .bottom {
 	padding-bottom: 0.5vh;
 }
 
-/* Pääsivun footer */
-
-#mainfooter {
-    min-height:50vh;
-    background-image:url('../img/1920x1080_FOOTER_pack.jpg');
-}
-
-/* Tabisivujen footerien tyylit */
-
-#teamfooter, #projectfooter {
-    background-image:url('../img/turqos_1920x1080_pack.jpg');
-}
-
-#mainfooter #sponsors {
- 	padding-top:20vh;
- }
-
-#teamfooter #sponsors, #projectfooter #sponsors{
-    padding-top:34vh;
-}
-
-#teamfooter .bottom, #projectfooter .bottom{
-    margin-top:17.5vh;
-}
-#sponsorfooter {
-    background-image: none;
-    background-color: #EDAC91;
-}
-
 #contact {
     font-size: 10px;
     color:white;
 }
 
-#sponsors .row {
-    margin-right:0;
-}
+/* Bottom navigaatio loppu */
+
+
+
+/* Tabisivujen footerien tyylit */
+
+
+/* Valign? */
 .valign-outer {
 	display: table;
     width: 100%;
